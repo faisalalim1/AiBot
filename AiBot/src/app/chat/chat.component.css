@@ -1,0 +1,27 @@
+.message{
+    border-radius: 50px;
+    margin: 0 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+
+}
+
+.message.to{
+    background-color: blue;
+    color: white;
+    margin-left: 100px;
+    text-align: right;
+}
+
+.message.from{
+    background-color: grey;
+    color: black;
+    margin-right: 100px;
+
+}
+
+
+.message.to + .message.to, .message.from + .message.from{
+    margin-top: -10px;
+}
